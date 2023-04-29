@@ -1,0 +1,62 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+
+/* Figure Box Styles */
+
+img{
+	border: 5px solid purple
+}
+
+
+/* HTML Styles */
+
+
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+/* Article Styles */
+
+
+
+
+
+/* Page Body Styles */
+
+body {
+	background-image: url("audibook4.png");
+	background-position: center center;
+	background-repeat:no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+
+}
+
+h1 {
+  text-shadow: 2px 2px #FF0000;
+}
+
+/* Aside Styles */
+
+
+
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 25%;
+  padding: 10px;
+}
+
+
+/* Footer Styles */
+
